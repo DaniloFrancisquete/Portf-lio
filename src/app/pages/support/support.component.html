@@ -1,14 +1,51 @@
 <div class="content mat-elevation-z4">
-  <app-toolbar-title title="Suporte" icon="fa-headset">
+  <app-toolbar-title title="Contato" icon="fa-headset">
     <button mat-icon-button>
       <mat-icon>share</mat-icon>
     </button>
   </app-toolbar-title>
 
-<div class="container">
-  <router-outlet></router-outlet>
+  <div class="container">
+    <div class="contact-list">
+      <mat-card class="contact-item">
+        <mat-card-header>
+          <mat-icon class="contact-icon">email</mat-icon>
+          <mat-card-title>Email</mat-card-title>
+        </mat-card-header>
+        <mat-card-content>
+          <a href="mailto:danilofrancisquete&#64;hotmail.com">danilofrancisquete&#64;hotmail.com</a>
+        </mat-card-content>
+      </mat-card>
+
+      <mat-card class="contact-item">
+        <mat-card-header>
+          <mat-icon class="contact-icon">phone</mat-icon>
+          <mat-card-title>Telefone</mat-card-title>
+        </mat-card-header>
+        <mat-card-content>
+          <a href="tel:+5543998131155">+55 (43) 99813-1155</a>
+        </mat-card-content>
+      </mat-card>
+
+      <mat-card class="contact-item">
+        <mat-card-header>
+          <mat-icon class="contact-icon">code</mat-icon>
+          <mat-card-title>GitHub</mat-card-title>
+        </mat-card-header>
+        <mat-card-content>
+          <a href="https://github.com/DaniloFrancisquete" target="_blank">github.com/DaniloFrancisquete</a>
+        </mat-card-content>
+      </mat-card>
+
+      <mat-card class="contact-item">
+        <mat-card-header>
+          <mat-icon class="contact-icon">work</mat-icon>
+          <mat-card-title>LinkedIn</mat-card-title>
+        </mat-card-header>
+        <mat-card-content>
+          <a href="https://www.linkedin.com/in/danilo-francisquete-412948106/" target="_blank">linkedin.com/in/danilo-francisquete</a>
+        </mat-card-content>
+      </mat-card>
+    </div>
+  </div>
 </div>
-</div>
-
-
-

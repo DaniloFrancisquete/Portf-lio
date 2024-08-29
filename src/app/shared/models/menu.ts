@@ -12,19 +12,19 @@ export const menuItems: MenuItem[] = [
     label:'Cursos',
   },
   {
-    link:'/teachers',
+    link:'/experience',
     icon:'fa-person-chalkboard',
-    label:'Professores',
+    label:'Experiências',
   },
   {
-    link:'/students',
+    link:'/projects',
     icon:'fa-chalkboard-user',
-    label:'Alunos',
+    label:'Projetos',
   },
   {
-    link:'/support',
+    link:'/contact',
     icon:'fa-headset',
-    label:'Suporte',
+    label:'Contato',
   },
 
 ]
