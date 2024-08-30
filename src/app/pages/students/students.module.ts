@@ -5,7 +5,8 @@ import { StudentsRoutingModule } from './students-routing.module';
 import { StudentsComponent } from './students.component';
 
 import { SharedModule } from '@app/shared/shared.module';
-import { SupportMaterialModule } from '@app/shared/materials/support-mat.module';
+import { StudentsMaterialModule } from '@app/shared/materials/students-mat.module';
+
 
 
 @NgModule({
@@ -15,7 +16,7 @@ import { SupportMaterialModule } from '@app/shared/materials/support-mat.module'
   imports: [
     CommonModule,
     StudentsRoutingModule,
-    SupportMaterialModule,
+    StudentsMaterialModule,
     SharedModule
   ]
 })

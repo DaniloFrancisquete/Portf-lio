@@ -1,0 +1,45 @@
+.content {
+  padding: 16px;
+  background-color: #f9f9f9;
+}
+
+.container {
+  margin-top: 16px;
+}
+
+.academic-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 16px;
+}
+
+.academic-card {
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.academic-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+}
+
+mat-card-header {
+  background-color: #e0e0e0;
+  color: #333;
+}
+
+mat-card-title {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+mat-card-subtitle {
+  font-size: 14px;
+  color: #666;
+}
+
+mat-card-content p {
+  margin: 8px 0;
+}
