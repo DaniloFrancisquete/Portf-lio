@@ -31,9 +31,22 @@
 }
 
 .contact-icon {
-  font-size: 32px;
-  color: #007bff;
+  font-size: 60px;
+  color: #0a66c2;
   margin-bottom: 20px;
+
+  &-telefone {
+    color: #575757;
+    margin-bottom: 20px;
+    font-size: 60px;
+  }
+
+  &-git {
+   color: black;
+   margin-bottom: 20px;
+   font-size: 60px;
+  }
+
 }
 
 mat-card-title {

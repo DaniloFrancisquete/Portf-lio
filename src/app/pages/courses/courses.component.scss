@@ -36,17 +36,28 @@
   }
 
   .fixed-card {
-    height: 380px;
+    height: 400px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
   }
 
-  .fixed-card embed {
+  .fixed-card img {
     height: 100%;
+    width: 100%;
+    object-fit: cover;
   }
 
   .fixed-card img {
-    height: 100%;
-    object-fit: cover;
+    width: 100%; /* Ocupa 100% da largura do container */
+    height: auto; /* Mantém a proporção da imagem */
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    cursor: pointer;
+  }
+
+  .fixed-card img:hover {
+    transform: scale(1); /* Assume o tamanho original */
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3); /* Adiciona uma sombra */
+    position: relative;
+    z-index: 10; /* Garante que a imagem fique acima de outros elementos ao expandir */
   }
