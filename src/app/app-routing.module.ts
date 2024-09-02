@@ -7,8 +7,8 @@ const routes: Routes = [
   { path: 'dashboard', loadChildren: () => import('./pages/dashboard/dashboard.module').then(m => m.DashboardModule) },
   { path: 'courses', loadChildren: () => import('./pages/courses/courses.module').then(m => m.CoursesModule) },
   { path: 'experience', loadChildren: () => import('./pages/teachers/teachers.module').then(m => m.TeachersModule) },
-  { path: 'projects', loadChildren: () => import('./pages/students/students.module').then(m => m.StudentsModule) },
-  { path: 'contact', loadChildren: () => import('./pages/support/support.module').then(m => m.SupportModule) },
+  { path: 'training', loadChildren: () => import('./pages/students/students.module').then(m => m.StudentsModule) },
+  { path: 'project', loadChildren: () => import('./pages/support/support.module').then(m => m.SupportModule) },
 ];
 
 @NgModule({

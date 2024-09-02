@@ -17,14 +17,14 @@ export const menuItems: MenuItem[] = [
     label:'Experiências',
   },
   {
-    link:'/projects',
+    link:'/training',
     icon:'fa-chalkboard-user',
-    label:'Projetos',
+    label:'Formação Acadêmica',
   },
   {
-    link:'/contact',
+    link:'/project',
     icon:'fa-headset',
-    label:'Contato',
+    label:'Projetos',
   },
 
 ]

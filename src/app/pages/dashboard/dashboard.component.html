@@ -1,12 +1,70 @@
 <div class="content mat-elevation-z4">
-  <app-toolbar-title title="Dashboard" icon="fa-chart-line">
-    <button mat-icon-button>
-      <mat-icon>share</mat-icon>
-    </button>
-  </app-toolbar-title>
+  <mat-card class="intro-card">
+    <mat-card-header >
+      <mat-card-title class="title">Desenvolvedor Full Stack</mat-card-title>
+      <mat-card-subtitle class="subtitle">
+        Java | Python | Angular | AngularJS | ReactJS | NextJS | .NET | Redux | Docker
+      </mat-card-subtitle>
+    </mat-card-header>
+    <mat-card-content>
+      <p class="location">Cidade: Porecatu, Paraná, Brasil</p>
+      <p>Estou na área de desenvolvimento de software há mais de 2 anos. Decidi abraçar a stack JS, pois atuo tanto no Frontend quanto no Backend.</p>
 
-<div class="container">
-  <router-outlet></router-outlet>
-</div>
-</div>
+      <div class="action-buttons">
+        <a mat-raised-button color="primary" color="accent"  href="https://drive.google.com/file/d/1sHuD9I77X_6bJtJt-8gMSdFPIcN-7RWs/view?usp=drive_link" target="_blank" download>Download CV</a>
+        <a mat-raised-button color="primary" href="https://www.linkedin.com/in/danilo-francisquete-412948106/" target="_blank">LinkedIn</a>
+      </div>
 
+      <div class="contact-container">
+        <mat-card class="contact-card">
+          <mat-card-content class="contact-content">
+            <img src="assets/whatsapp.svg" alt="WhatsApp" width="50" height="50">
+            <div>
+              <a class="contact-link" href="https://wa.me/5543998131155" target="_blank">
+                <span class="contact-text">Enviar uma mensagem para:</span>
+              </a>
+              <p class="contact-detail">WhatsApp: (43)9.9813-1155</p>
+            </div>
+          </mat-card-content>
+        </mat-card>
+
+        <mat-card class="contact-card">
+          <mat-card-content class="contact-content">
+            <img src="assets/email.png" alt="email" width="50" height="50">
+            <div>
+              <a class="contact-link" href="mailto:danilofrancisquete@hotmail.com">
+                <span class="contact-text">Enviar um e-mail para:</span>
+              </a>
+              <p class="contact-detail">danilofrancisquete&#64;hotmail.com</p>
+            </div>
+          </mat-card-content>
+        </mat-card>
+      </div>
+
+
+      <h3 class="skills-title">Conhecimentos</h3>
+      <div class="skills-icons">
+        <img src="assets/java.svg" alt="Java" width="36" height="36">
+        <img src="assets/python.svg" alt="Python" width="36" height="36">
+        <img src="assets/angular.svg" alt="Angular" width="36" height="36">
+        <img src="assets/reage.svg" alt="React" width="36" height="36">
+        <img src="assets/javascript.svg" alt="JavaScript" width="36" height="36">
+        <img src="assets/figma.svg" alt="Figma" width="36" height="36">
+      </div>
+
+      <mat-card class="portfolio-description">
+        <mat-card-header>
+          <mat-card-title>Sobre este Portfólio</mat-card-title>
+        </mat-card-header>
+        <mat-card-content>
+          <p>
+            Este portfólio foi desenvolvido utilizando Angular e Angular Material. Nele, você encontrará uma organização clara dos componentes, utilizando os módulos Angular de forma eficaz e seguindo práticas modernas de desenvolvimento.
+          </p>
+          <p>
+            O portfólio inclui informações detalhadas sobre minhas experiências profissionais, formação acadêmica, cursos com certificados e formas de contato. A interface é responsiva e otimizada para uma navegação intuitiva.
+          </p>
+        </mat-card-content>
+      </mat-card>
+    </mat-card-content>
+  </mat-card>
+</div>
