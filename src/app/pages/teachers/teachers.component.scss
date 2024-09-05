@@ -1,6 +1,6 @@
 .content {
   padding: 16px;
-  background-color: #f9f9f9;
+  background-color: white;
 }
 
 .container {
@@ -17,13 +17,15 @@ mat-card-content {
 }
 
 mat-expansion-panel-header {
-  background-color: #e0e0e0;
+  background-color: #3f51b5;
+  gap: 10px;
 }
+
 
 mat-panel-title {
   font-weight: bold;
 }
 
 mat-panel-description {
-  color: #666;
+  color: rgba(0, 0, 0, .87);
 }

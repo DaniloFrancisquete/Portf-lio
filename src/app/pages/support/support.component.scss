@@ -54,3 +54,8 @@
 .title, .subtitle {
   text-align: center;
 }
+
+.contact-item:hover {
+  transform: translateY(-10px); /* Move o card ligeiramente para cima */
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.3); /* Aumenta a sombra para criar o efeito de profundidade */
+}

@@ -4,26 +4,26 @@ export const menuItems: MenuItem[] = [
   {
     link:'/dashboard',
     icon:'fa-chart-line',
-    label:'Dashboard',
+    label:'Painel',
   },
   {
     link:'/courses',
-    icon:'fa-graduation-cap',
+    icon:'fa-certificate' ,
     label:'Cursos',
   },
   {
     link:'/experience',
-    icon:'fa-person-chalkboard',
+    icon:'fa-user-tie',
     label:'Experiências',
   },
   {
     link:'/training',
-    icon:'fa-chalkboard-user',
+    icon:'fa-graduation-cap',
     label:'Formação Acadêmica',
   },
   {
     link:'/project',
-    icon:'fa-headset',
+    icon:'fa-diagram-project',
     label:'Projetos',
   },
 
