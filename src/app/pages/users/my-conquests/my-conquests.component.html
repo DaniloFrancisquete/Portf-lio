@@ -1,7 +1,8 @@
-<mat-grid-list cols="1" rowHeight="200px">
+<div class="container-geral">
+<mat-grid-list [cols]="gridCols" [gutterSize]="gutterSize" rowHeight="200px">
   <mat-grid-tile *ngFor="let achievement of achievements">
     <mat-card class="achievement-item">
-      <mat-card-header class="headern">
+      <mat-card-header >
         <mat-icon mat-card-avatar>star</mat-icon>
         <mat-card-title>{{ achievement.title }}</mat-card-title>
       </mat-card-header>
@@ -11,3 +12,4 @@
     </mat-card>
   </mat-grid-tile>
 </mat-grid-list>
+</div>

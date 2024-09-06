@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, HostListener } from '@angular/core';
 
 @Component({
   selector: 'app-my-conquests',
@@ -19,5 +19,30 @@ export class MyConquestsComponent {
     { title: 'Gestão de Projetos com Metodologias Ágeis', description: 'Experiência com metodologias Scrum para entregar projetos de forma rápida e eficiente, garantindo melhorias contínuas.' },
     { title: 'Integração de Layouts Responsivos e Interativos', description: 'Criação de layouts responsivos para melhorar a acessibilidade e experiência do usuário em diferentes dispositivos.' }
   ];
+
+  gridCols: number = 3;
+  gutterSize: string = '16px';
+
+  ngOnInit() {
+    this.calculateGridCols(window.innerWidth);
+  }
+
+  @HostListener('window:resize', ['$event'])
+  onResize(event: any) {
+    this.calculateGridCols(event.target.innerWidth);
+  }
+
+  calculateGridCols(width: number) {
+    if (width <= 600) {
+      this.gridCols = 1;
+      this.gutterSize = '8px';
+    } else if (width <= 960) {
+      this.gridCols = 2;
+      this.gutterSize = '12px';
+    } else {
+      this.gridCols = 3;
+      this.gutterSize = '16px';
+    }
+  }
 
 }

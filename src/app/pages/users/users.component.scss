@@ -37,3 +37,33 @@
   background-color: #f5f5f5; /* Cor de fundo ao passar o mouse */
   text-decoration: none; /* Remove o sublinhado ao passar o mouse */
 }
+
+@media (max-width: 768px) {
+  /* Ajusta os links de navegação para telas menores */
+  .tab-nav-bar {
+    flex-direction: column; /* Faz com que os botões sejam empilhados verticalmente em telas pequenas */
+  }
+
+  .tab-nav-bar a {
+    padding: 12px; /* Reduz o padding em telas menores */
+    font-size: 14px; /* Ajusta o tamanho da fonte */
+  }
+
+  /* Ajusta o tamanho do ícone para telas menores */
+  .tab-nav-bar a mat-icon {
+    margin-right: 4px;
+    font-size: 20px; /* Diminui o tamanho do ícone */
+  }
+}
+
+/* Ajustes para telas muito pequenas (smartphones) */
+@media (max-width: 480px) {
+  .tab-nav-bar a {
+    padding: 10px; /* Diminui ainda mais o padding em telas muito pequenas */
+    font-size: 13px; /* Reduz o tamanho da fonte */
+  }
+
+  .tab-nav-bar a mat-icon {
+    font-size: 18px; /* Reduz ainda mais o tamanho do ícone */
+  }
+}

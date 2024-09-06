@@ -35,3 +35,45 @@ mat-card-actions {
 button {
   margin-top: 20px;
 }
+
+@media (max-width: 768px) {
+  .cover-card {
+    padding: 15px; /* Reduz o padding em telas menores */
+    max-width: 90%; /* Ajusta a largura máxima para telas menores */
+  }
+
+  mat-card-title {
+    font-size: 22px; /* Reduz o tamanho da fonte do título */
+  }
+
+  mat-card-content p {
+    font-size: 15px; /* Reduz o tamanho da fonte do conteúdo */
+  }
+
+  mat-card-actions {
+    flex-direction: column; /* Empilha os botões verticalmente em telas menores */
+    align-items: stretch; /* Faz os botões ocuparem toda a largura disponível */
+  }
+
+  button {
+    width: 100%; /* Botões ocupam 100% da largura */
+  }
+}
+
+@media (max-width: 480px) {
+  .cover-card {
+    padding: 10px; /* Diminui ainda mais o padding em telas muito pequenas */
+  }
+
+  mat-card-title {
+    font-size: 20px; /* Reduz o tamanho da fonte do título em telas muito pequenas */
+  }
+
+  mat-card-content p {
+    font-size: 14px; /* Reduz ainda mais o tamanho da fonte do conteúdo */
+  }
+
+  mat-card-actions {
+    gap: 8px; /* Ajusta o espaçamento entre botões para telas muito pequenas */
+  }
+}
