@@ -7,6 +7,11 @@ export const menuItems: MenuItem[] = [
     label:'Painel',
   },
   {
+    link:'/users',
+    icon:'fa-person-chalkboard',
+    label:'Apresentação',
+  },
+  {
     link:'/courses',
     icon:'fa-certificate' ,
     label:'Cursos',

@@ -1,0 +1,33 @@
+.achievements-card {
+  max-width: 900px;
+  margin: auto;
+  padding: 16px;
+  text-align: center !important;
+}
+
+
+.achievement-item {
+  margin-bottom: 16px;
+  background-color: #f9f9f9;
+}
+
+
+mat-card-header {
+  background-color: #1e3a8a;
+  color: #fff;
+  padding: 21px 107px 0;
+}
+
+mat-card-title {
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+
+mat-icon {
+  color: #ffeb3b !important;
+}
+
+.mat-mdc-card-content {
+  display: block;
+  padding: 15px 16px;
+}

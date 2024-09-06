@@ -31,6 +31,10 @@ mat-sidenav-container {
 
 //-----sidebar------//
 
+.mat-icon {
+  color: #3f51b5 !important;
+}
+
 .mat-drawer-content {
   background-color: #efefef;
 }
@@ -42,7 +46,7 @@ mat-sidenav-container {
   .mat-icon {
     margin: 10px 20px 0 0;
     font-size: 18px;
-    color: #636363;
+    color:#3f51b5;
   }
 
   mat-toolbar {
@@ -92,7 +96,7 @@ mat-sidenav-container {
     }
 
     a:hover, .active {
-      background-color: #e6e6e6;
+      background-color: #2846eb47
     }
   }
 }

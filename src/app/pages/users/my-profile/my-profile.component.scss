@@ -1,0 +1,51 @@
+
+.profile-card {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.9);
+}
+
+.profile-avatar {
+  background-image: url('/assets/perfil.jpg');
+  background-size: cover;
+  border-radius: 50%;
+}
+
+.mat-mdc-card-avatar {
+  height: 65px !important;
+  width: 80px !important;
+}
+
+
+mat-card-header {
+  text-align: center;
+}
+
+mat-card-title {
+  font-size: 24px;
+  font-weight: bold;
+  color: #1e3a8a;
+}
+
+mat-card-subtitle {
+  font-size: 18px;
+  color: #666;
+}
+
+mat-card-content p,
+ul {
+  font-size: 16px;
+  line-height: 1.6;
+  color: #333;
+}
+
+mat-card-actions {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+button {
+  margin-top: 10px;
+}

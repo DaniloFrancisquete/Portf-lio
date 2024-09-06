@@ -1,1 +1,13 @@
-<p>my-conquests works!</p>
+<mat-grid-list cols="1" rowHeight="200px">
+  <mat-grid-tile *ngFor="let achievement of achievements">
+    <mat-card class="achievement-item">
+      <mat-card-header class="headern">
+        <mat-icon mat-card-avatar>star</mat-icon>
+        <mat-card-title>{{ achievement.title }}</mat-card-title>
+      </mat-card-header>
+      <mat-card-content>
+        <p>{{ achievement.description }}</p>
+      </mat-card-content>
+    </mat-card>
+  </mat-grid-tile>
+</mat-grid-list>

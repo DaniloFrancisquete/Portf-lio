@@ -49,15 +49,23 @@
   }
 
   .fixed-card img {
-    width: 100%; /* Ocupa 100% da largura do container */
-    height: auto; /* Mantém a proporção da imagem */
+    width: 100%;
+    height: auto;
     transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
     cursor: pointer;
   }
 
   .fixed-card img:hover {
-    transform: scale(1); /* Assume o tamanho original */
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3); /* Adiciona uma sombra */
+    transform: scale(1);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
     position: relative;
-    z-index: 10; /* Garante que a imagem fique acima de outros elementos ao expandir */
+    z-index: 10;
+  }
+
+  .description {
+    font-size: 18px;
+    color: #333;
+    text-align: center;
+    margin: 20px 0;
+    line-height: 1.6;
   }
