@@ -3,8 +3,8 @@
 .achievement-item {
   margin-bottom: 16px;
   background-color: #f9f9f9;
-  transition: transform 0.3s ease, box-shadow 0.3s ease;  // Transição suave para transformação e sombra
-  border-radius: 8px;  // Adiciona bordas arredondadas para suavizar o efeito
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  border-radius: 8px;
 }
 
 .achievement-item:hover {
@@ -33,7 +33,7 @@ mat-icon {
   margin: 10px;
 }
 
-/* Responsividade adicional */
+
 @media (max-width: 600px) {
   .achievement-item {
     margin-bottom: 8px;

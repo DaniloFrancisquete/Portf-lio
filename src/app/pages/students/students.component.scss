@@ -11,7 +11,7 @@
 
 .academic-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); /* Alteração para 250px */
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   gap: 24px;
   max-width: 1200px;
   margin: 0 auto;
@@ -61,15 +61,15 @@ mat-card {
 /* Responsividade */
 @media (max-width: 768px) {
   .academic-grid {
-    grid-template-columns: 1fr; /* Coluna única em telas menores */
+    grid-template-columns: 1fr;
   }
 
   .academic-card {
-    margin: 0 auto; /* Centraliza o cartão */
+    margin: 0 auto;
   }
 
   mat-card-title {
-    font-size: 16px; /* Tamanho menor da fonte em dispositivos móveis */
+    font-size: 16px;
   }
 
   mat-card-subtitle {
@@ -77,6 +77,6 @@ mat-card {
   }
 
   mat-card-content p {
-    font-size: 14px; /* Ajuste da fonte para leitura mais fácil em celulares */
+    font-size: 14px;
   }
 }

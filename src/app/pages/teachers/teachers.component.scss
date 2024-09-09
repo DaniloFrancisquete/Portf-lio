@@ -32,18 +32,18 @@ mat-panel-description {
 
 /* Responsividade */
 @media (max-width: 768px) {
-  /* Ajusta o padding da .content em telas menores */
+
   .content {
     padding: 8px;
   }
 
-  /* Centraliza os itens e ajusta o espaçamento em telas pequenas */
+
   .container {
     margin-top: 8px;
     padding: 8px;
   }
 
-  /* Reduz o tamanho da fonte e margens dos cards */
+
   mat-card-content {
     font-size: 13px;
   }
@@ -52,10 +52,10 @@ mat-panel-description {
     margin-bottom: 12px;
   }
 
-  /* Ajusta o espaçamento e layout do cabeçalho dos painéis em telas pequenas */
+
   mat-expansion-panel-header {
     gap: 5px;
-    flex-wrap: wrap; /* Faz com que os itens do header quebrem linha se necessário */
+    flex-wrap: wrap;
   }
 
   mat-panel-title {
@@ -66,4 +66,6 @@ mat-panel-description {
     font-size: 12px;
     color: rgba(0, 0, 0, .7);
   }
+
+
 }

@@ -1,69 +1,67 @@
-/* Estilo para o contêiner da barra de navegação */
 .tab-nav-bar {
   display: flex;
   width: 100%;
 }
 
-/* Estilo para os links de navegação */
+
 .tab-nav-bar a {
-  flex: 1; /* Faz com que cada link ocupe uma parte igual da largura disponível */
+  flex: 1;
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 16px; /* Ajuste o padding para aumentar o tamanho do botão */
+  padding: 16px;
   text-align: center;
-  border: 1px solid #ccc; /* Adiciona uma borda para visualização */
-  border-radius: 8px; /* Borda arredondada */
-  margin: 4px; /* Margem entre os botões */
-  text-decoration: none; /* Remove o sublinhado */
-  color: inherit; /* Herda a cor do texto */
-  box-sizing: border-box; /* Inclui padding e border no cálculo da largura total */
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  margin: 4px;
+  text-decoration: none;
+  color: inherit;
+  box-sizing: border-box;
 }
 
-/* Estilo para os ícones dentro dos links de navegação */
+
 .tab-nav-bar a mat-icon {
   margin-right: 8px;
 }
 
-/* Estilo para o link ativo */
+
 .tab-nav-bar a.active-link {
-  background-color: #e0e0e0; /* Cor de fundo para o link ativo */
-  color: #000; /* Cor do texto para o link ativo */
-  font-weight: bold; /* Negrito para o texto ativo */
+  background-color: #e0e0e0;
+  color: #000;
+  font-weight: bold;
 }
 
-/* Adiciona um efeito de hover */
+
 .tab-nav-bar a:hover {
-  background-color: #f5f5f5; /* Cor de fundo ao passar o mouse */
-  text-decoration: none; /* Remove o sublinhado ao passar o mouse */
+  background-color: #f5f5f5;
+  text-decoration: none;
 }
 
 @media (max-width: 768px) {
-  /* Ajusta os links de navegação para telas menores */
+
   .tab-nav-bar {
-    flex-direction: column; /* Faz com que os botões sejam empilhados verticalmente em telas pequenas */
+    flex-direction: column;
   }
 
   .tab-nav-bar a {
-    padding: 12px; /* Reduz o padding em telas menores */
-    font-size: 14px; /* Ajusta o tamanho da fonte */
+    padding: 12px;
+    font-size: 14px;
   }
 
-  /* Ajusta o tamanho do ícone para telas menores */
   .tab-nav-bar a mat-icon {
     margin-right: 4px;
-    font-size: 20px; /* Diminui o tamanho do ícone */
+    font-size: 20px;
   }
 }
 
-/* Ajustes para telas muito pequenas (smartphones) */
+
 @media (max-width: 480px) {
   .tab-nav-bar a {
-    padding: 10px; /* Diminui ainda mais o padding em telas muito pequenas */
-    font-size: 13px; /* Reduz o tamanho da fonte */
+    padding: 10px;
+    font-size: 13px;
   }
 
   .tab-nav-bar a mat-icon {
-    font-size: 18px; /* Reduz ainda mais o tamanho do ícone */
+    font-size: 18px;
   }
 }

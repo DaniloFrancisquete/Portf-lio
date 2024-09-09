@@ -2,32 +2,32 @@ import { MenuItem } from "./menuItem";
 
 export const menuItems: MenuItem[] = [
   {
-    link:'/dashboard',
+    link:'/painel',
     icon:'fa-chart-line',
     label:'Painel',
   },
   {
-    link:'/users',
+    link:'/apresentacao',
     icon:'fa-person-chalkboard',
     label:'Apresentação',
   },
   {
-    link:'/courses',
+    link:'/cursos',
     icon:'fa-certificate' ,
     label:'Cursos',
   },
   {
-    link:'/experience',
+    link:'/experiencias',
     icon:'fa-user-tie',
     label:'Experiências',
   },
   {
-    link:'/training',
+    link:'/formacao',
     icon:'fa-graduation-cap',
     label:'Formação Acadêmica',
   },
   {
-    link:'/project',
+    link:'/projeto',
     icon:'fa-diagram-project',
     label:'Projetos',
   },
